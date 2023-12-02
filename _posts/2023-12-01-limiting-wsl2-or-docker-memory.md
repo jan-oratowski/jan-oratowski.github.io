@@ -5,7 +5,7 @@ date: 2023-12-01 12:59:01 +0100
 categories: WSL2 Windows Docker Linux
 ---
 
-If you just want the answer without reading the whole page, [then just click this link](#how-to-do-it).
+> If you just want the answer without reading the whole page, [then just click this link](#how-to-do-it).
 
 ## (not so) short background
 
