@@ -49,7 +49,7 @@ umount /mnt/tmp
 
 After that you can start your LXC once again and it should be working fine.
 
-## What if your container had already some users created?
+## what if your container had already some users created?
 
 I guess it's still possible to untangle all that mess, but I find it's much faster to just create new privileged LXC and re-install all packages + transfer files from previous installation.
 
