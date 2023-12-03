@@ -15,7 +15,7 @@ When you set up new LXC container in Proxmox it will ask you what type of contai
 
 This option is quite easy to miss and you will probably notice that you forgot about it when something doesn't work, or gives you strange errors.
 
-![2023 11 25 proxmox unprivileged lxc]({{ assets/images/2023-11-25-proxmox-unprivileged-lxc.png | relative_url }})
+![2023 11 25 proxmox unprivileged lxc](https://oratowski.com/assets/images/2023-11-25-proxmox-unprivileged-lxc.png)
 
 ## what is the difference
 
