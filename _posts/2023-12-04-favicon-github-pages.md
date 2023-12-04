@@ -19,6 +19,7 @@ Modify the file by adding `<link rel="shortcut icon" type="image/png" href="{{ s
 This is how my file looks after that:
 
 {% highlight html %}
+{% raw %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,6 +33,7 @@ This is how my file looks after that:
 
 <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
 </head>
+{% endraw %}
 {% endhighlight %}
 
 And I also went to `_config.yml` and added `jekyll-seo-tag` plugin.
@@ -46,4 +48,4 @@ plugins:
   - jekyll-seo-tag
 {% endhighlight %}
 
-Deployed after that and so far it works fine.
+Deployed after that and the favicon loads fine.
