@@ -16,6 +16,8 @@ As stated before - nobody felt like going to the computer and manually restartin
 
 In this case it was pure laziness, however that's not always the case. Sometimes everyone is working from home and it may happen, or it can be a computer in some remote data center. In both of those cases ability to remotely troubleshoot and fix the restart may be useful and this is why I wanted to investigate how to fix it.
 
+## Things to try first
+
 My first attempt was to login there via RDP and try starting Task Manager, I was able to login far enough to see the black screen (so no desktop, or explorer), but was not able to start Task Manager (CTRL+ALT+DEL/INSERT didn't work).
 
 Next I tried to connect with PowerShell.
