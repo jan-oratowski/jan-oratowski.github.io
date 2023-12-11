@@ -18,3 +18,5 @@ git gc
 {% endhighlight %}
 
 That fixed space issue - I've managed to get back around 40GB of drive space.
+
+[Docs for "git sc"](https://git-scm.com/docs/git-gc).
