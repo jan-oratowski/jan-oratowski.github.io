@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Restarting stuck Windows machine over Remote Desktop."
+title: "Restarting stuck Windows machine over Remote Desktop"
 date: 2023-12-06 9:39:00 +0100
 categories: Remote Windows Restart
 ---

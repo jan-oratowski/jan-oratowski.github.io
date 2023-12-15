@@ -2,7 +2,7 @@
 layout: post
 title: "Adding Cloudflare Analytics to GitHub Pages"
 date: 2023-12-14 22:00:00 +0100
-categories: elastic agent fleet server fix
+categories: cloudflare analytics github pages
 ---
 
 There are two ways to add the analytics to GitHub Pages:
@@ -11,7 +11,7 @@ There are two ways to add the analytics to GitHub Pages:
 
 Will work only if you have DNS configured to proxy all request through Cloudflare. It's on by default, if you are unsure, then look at your DNS configuration, if there is yellow cloud near the DNS entry, then it's proxied.
 
-Just enable web analytics and make sure that "`Disable automatic setup`" is not checked.
+Just enable web analytics and make sure that `Disable automatic setup` is not checked.
 
 ![2023 12 14 cloudflare analytics github pages](https://oratowski.com/assets/images/2023-12-14-cloudflare-analytics-github-pages.png)
 
@@ -27,7 +27,7 @@ At the bottom of the site body.
 
 If you're not proxing the requests, then you have to set it up manually.
 
-First check the "`Disable automatic setup`" checkbox.
+First check the `Disable automatic setup` checkbox.
 
 It will show you the code you have to copy-paste to your website source.
 
@@ -35,8 +35,8 @@ Since I use Jekyll with Minima, it means I can't just paste it into markup file.
 
 By default it's not in my git repo, I had to go to the GitHub repository of Minima 2.5 and download this file:
 
-https://github.com/jekyll/minima/blob/2.5-stable/_layouts/default.html
+`https://github.com/jekyll/minima/blob/2.5-stable/_layouts/default.html`
 
-Next I placed it in myRepo/_layouts/default.html and added copied JavaScript to the file.
+Next I placed it in `myRepo/_layouts/default.html` and added copied JavaScript to the file.
 
 Once you push the changes you've made, the site will rebuild and you should see said JavaScript in your view-source window.

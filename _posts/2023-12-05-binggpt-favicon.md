@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating a favicon with DALL-E 2 or Bing GPT."
+title: "Creating a favicon with DALL-E 2 or Bing GPT"
 date: 2023-12-05 9:12:38 +0100
 categories: Web Favicon
 ---
