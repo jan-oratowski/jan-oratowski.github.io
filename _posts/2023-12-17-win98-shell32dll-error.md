@@ -1,15 +1,20 @@
 ---
 layout: post
-title: "Tel: not being rendered in Razor Pages"
+title: "Fixing Windows 98 shell32.dll error on modern hardware"
 date: 2023-12-17 12:10:00 +0100
-categories: windows9x virtualbox shell32
+categories: windows9x VirtualBox shell32
 ---
 
-Recently I tried to run Windows 98 in Virtualbox, but got this error:
+Recently I tried to run Windows 98 in VirtualBox, but got this error:
+
+{% highlight %}
+The SHELL32.DLL file is
+linked to missing export SHLWAPI.DLL:tFileAttributesA.
+{% endhighlight %}
 
 ![2023 12 17 win98 shell32dll error](https://oratowski.com/assets/images/2023-12-17-win98-shell32dll-error.png)
 
-What was puzzling is that this VM previously worked without any problems. I have run it succesfully in Virtualbox few years ago and nothing has changed since the last run.
+What was puzzling is that this VM previously worked without any problems. I have run it succesfully in VirtualBox few years ago and nothing has changed since the last run.
 
 The only thing that has changed was the computer it was running on.
 
