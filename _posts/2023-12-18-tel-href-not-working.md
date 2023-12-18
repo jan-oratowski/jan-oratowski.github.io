@@ -16,7 +16,10 @@ I navigated to the page, and it turned out the link in rendered Razor page has n
 After some digging I've found out we use: `Ganss.XSS.HtmlSanitizer`. In the code we initialize it with:
 
 {% highlight c# %}
-private static HtmlSanitizer \_htmlSanitizerWithTags => new HtmlSanitizer(             allowedAttributes: DefaultAllowedAttributes, allowedTags: AllowedTagsWithIframe,             allowedSchemes: AllowedSchemas);
+private static HtmlSanitizer _htmlSanitizerWithTags => new HtmlSanitizer(
+             allowedAttributes: DefaultAllowedAttributes,
+			 allowedTags: AllowedTagsWithIframe,
+             allowedSchemes: AllowedSchemas);
 {% endhighlight %}
 
 The sanitizer is created with allowedSchemes property that contains what can be put into `a href` tag. It's as "easy" as "just" adding `tel` to the list of allowed schemas:
