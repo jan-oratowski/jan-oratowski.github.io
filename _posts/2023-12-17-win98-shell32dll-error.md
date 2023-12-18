@@ -24,7 +24,7 @@ Fortunately there is a fix:
 
 Download the latest release from this page:
 
-https://github.com/JHRobotics/patcher9x/releases
+[https://github.com/JHRobotics/patcher9x/releases](https://github.com/JHRobotics/patcher9x/releases)
 
 I'm running already installed Win 98 SE in VirtualBox, so I need `patcher9x-0.8.50-boot.ima` file.
 
