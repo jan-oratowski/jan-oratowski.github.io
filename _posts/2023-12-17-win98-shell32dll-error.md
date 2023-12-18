@@ -12,7 +12,7 @@ Recently I tried to run Windows 98 in VirtualBox, but got this error:
 
 ![2023 12 17 win98 shell32dll error](https://oratowski.com/assets/images/2023-12-17-win98-shell32dll-error.png)
 
-What was puzzling is that this VM previously worked without any problems. I have run it succesfully in VirtualBox few years ago and nothing has changed since the last run.
+What was puzzling is that this VM previously worked without any problems. I have run it successfully in VirtualBox few years ago and nothing has changed since the last run.
 
 The only thing that has changed was the computer it was running on.
 
