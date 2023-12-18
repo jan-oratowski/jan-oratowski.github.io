@@ -34,5 +34,5 @@ private static ISet<string> AllowedSchemas
                 allowedSchemas.Add("tel");
                 return allowedSchemas;
             }
-        }</string></string>
+        };
 {% endhighlight %}
