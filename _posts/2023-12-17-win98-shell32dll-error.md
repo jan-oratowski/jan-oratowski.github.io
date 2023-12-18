@@ -7,10 +7,8 @@ categories: windows9x VirtualBox shell32
 
 Recently I tried to run Windows 98 in VirtualBox, but got this error:
 
-{% highlight %}
-The SHELL32.DLL file is
-linked to missing export SHLWAPI.DLL:tFileAttributesA.
-{% endhighlight %}
+> The SHELL32.DLL file is linked to missing export SHLWAPI.DLL:tFileAttributesA.
+
 
 ![2023 12 17 win98 shell32dll error](https://oratowski.com/assets/images/2023-12-17-win98-shell32dll-error.png)
 
