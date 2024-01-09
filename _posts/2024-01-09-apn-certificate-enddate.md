@@ -25,4 +25,4 @@ var cert = new X509Certificate2(bytes);
 cert.NotAfter.Dump();
 {% endhighlight %}
 
-Now you just have to put it into some Azure Function or some other app that will be periodically run by cron job and make it send notifications based on cert expiry date. 
+Now you just have to put it into some Azure Function or some other app that will be periodically run by a cron job and make it send notifications based on cert expiry date. 
