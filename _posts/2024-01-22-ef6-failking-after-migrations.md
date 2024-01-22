@@ -14,7 +14,7 @@ You can use the Add-Migration command to write the pending model changes to a co
 
 This was weird because we have migrations enabled and applied during each deployment.
 
-Checking in the database [dbo].[__MigrationHistory] showed all migrations applied correctly.
+Checking MigrationHistory in the database showed all migrations applied correctly.
 
 We solved it by creating new, empty migration and deploying the project with it.
 
