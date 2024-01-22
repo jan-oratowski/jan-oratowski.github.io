@@ -7,10 +7,10 @@ categories: ef6 migrations failing
 
 Recently, one of our deployments to staging environment failed with this message:
 
-{% highlight exception %}
+
 Unable to update database to match the current model because there are pending changes and automatic migration is disabled. Either write the pending model changes to a code-based migration or enable automatic migration. Set DbMigrationsConfiguration.AutomaticMigrationsEnabled to true to enable automatic migration.
 You can use the Add-Migration command to write the pending model changes to a code-based migration.
-{% endhighlight %}
+
 
 This was weird because we have migrations enabled and applied during each deployment.
 
