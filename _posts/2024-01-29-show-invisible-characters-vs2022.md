@@ -11,4 +11,4 @@ That also includes getting rid of all unnecessary white space characters (like s
 
 It's quite easy to spot it in Word or Notepad Plus Plus with white space characters visible. Obviously I will not set Word as my default C# editor, but fortunately it can be done in Visual Studio as well.
 
-The command is called `Edit.ViewWhiteSpace` and `CTRL+R`, `CTRL+W` toggles it on/off.
+The command is called `Edit.ViewWhiteSpace`, it's in `Edit -> Advanced -> View White Space` and `CTRL+R`, `CTRL+W` toggles it on/off.
