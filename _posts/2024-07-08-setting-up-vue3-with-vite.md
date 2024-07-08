@@ -13,15 +13,19 @@ I have found numerous tutorials, however not everything in them worked out for m
 
 This is what I use to setup new project and so far works:
 
+{% highlight bash %}
 npm create vite@latest
+{ endhighlight }
 
 I select name of the project and then select framework as Vue3 + TypeScript.
 
 After creating it, I can confirm it works with:
 
+{% highlight bash %}
 cd name-of-my-project
 npm install
 npm run dev
+{ endhighlight }
 
 At this stage it should work. One weird quirk is it will never work when I'm in a directory that is a junction link, or contains ! in it's path.
 
